@@ -1,0 +1,37 @@
+{
+  "attempts": 135,
+  "tasks": 45,
+  "success_rate": 0.5407407407407407,
+  "mean_name_recall": 0.7663194444444444,
+  "mean_full_recall": 0.7663194444444444,
+  "mean_tool_calls": 1.5407407407407407,
+  "mean_latency_s": 17.813333333333333,
+  "median_latency_s": 12.84,
+  "max_prompt_tokens": 4084,
+  "text_fallback_calls": 0,
+  "failure_stages": {
+    "wrong_tool": 11,
+    "success": 73,
+    "incomplete_chain": 16,
+    "should_not_call_tools": 17,
+    "wrong_answer": 10,
+    "readout_failure": 5,
+    "llm_error": 3
+  },
+  "reliability": {
+    "k": 3,
+    "pass@1": 0.5407407407407407,
+    "pass@3": 0.5777777777777777,
+    "pass^3": 0.5111111111111111
+  },
+  "config": {
+    "environment": "VAKRA BPO (local MCP)",
+    "provider": "ollama",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "temperature": 0.7,
+    "repeats": 3,
+    "max_steps": 8,
+    "task_files": "tasks,tasks_edge_cases,tasks_undocumented,tasks_http_errors,tasks_type_mismatch,tasks_schema_violations",
+    "date": "2026-10-30 12:33"
+  }
+}

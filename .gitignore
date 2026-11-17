@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# VAKRA data is CC BY-NC-SA and large: never commit it
+data/
+
+# Keep run reports and summaries; trajectories can hold large tool outputs
+runs/**/trajectories.jsonl
+runs/**/prediction/
+reports/data/turns.csv
+
+.env

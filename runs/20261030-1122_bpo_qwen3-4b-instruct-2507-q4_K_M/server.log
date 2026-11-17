@@ -1,0 +1,32 @@
+2026-10-30 11:22:41.080 | INFO     | __main__:start_server:661 - Starting MCP server (transport=stdio, port=None, host=0.0.0.0)
+2026-10-30 11:22:41.081 | INFO     | __main__:start_server:686 - Starting server in stdio mode
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│                                                                             │
+│                        ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                        █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                             │
+│                                                                             │
+│                                                                             │
+│                                FastMCP 4.1.4                                │
+│                            https://gofastmcp.com                            │
+│                                                                             │
+│                 🖥  Server:      bpo_benchmark, 4.1.4                        │
+│                 🚀 Deploy free: https://horizon.prefect.io                  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+[10/30/26 11:22:41] INFO     Starting MCP server               transport.py:241
+                             'bpo_benchmark' with transport                    
+                             'stdio'                                           
+2026-10-30 11:24:20.003 | INFO     | __main__:track_tool_call:78 - Tracked tool call: candidate_source_sla_per_source
+2026-10-30 11:24:20.003 | INFO     | __main__:candidate_source_sla_per_source:123 - MCP tool called: candidate_source_sla_per_source(requisition_id=05958BR)
+2026-10-30 11:24:30.922 | INFO     | __main__:track_tool_call:78 - Tracked tool call: candidate_source_total_hires_by_source
+2026-10-30 11:24:38.198 | INFO     | __main__:track_tool_call:78 - Tracked tool call: candidate_source_total_hires_by_source
+2026-10-30 11:24:45.151 | INFO     | __main__:track_tool_call:78 - Tracked tool call: candidate_source_sla_per_source
+2026-10-30 11:24:45.152 | INFO     | __main__:candidate_source_sla_per_source:123 - MCP tool called: candidate_source_sla_per_source(requisition_id=REQ00123)
+2026-10-30 11:25:07.127 | INFO     | __main__:track_tool_call:78 - Tracked tool call: candidate_source_candidate_volume_by_source
+2026-10-30 11:25:09.817 | INFO     | __main__:track_tool_call:78 - Tracked tool call: candidate_source_funnel_conversion_by_source

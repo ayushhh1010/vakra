@@ -1,0 +1,17 @@
+# vakra-rl core
+mcp>=1.2
+openai>=1.40
+huggingface_hub>=0.24
+matplotlib>=3.8
+pytest>=8
+
+# VAKRA's BPO tool server runs as a child process of THIS Python environment,
+# so its dependencies must be installed here too.
+fastmcp>=2.0
+fastapi>=0.100
+uvicorn[standard]>=0.23
+pandas>=2.0
+pyarrow>=14
+loguru
+rapidfuzz
+pydantic>=2
